@@ -1,0 +1,189 @@
+\documentclass[12pt,a4paper]{report}
+\pagestyle{empty}
+\usepackage{amsmath}
+%\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\bibliographystyle{ieeetr}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage{caption}
+\usepackage{lipsum}
+\usepackage{subcaption}
+%\usepackage[demo]{graphicx}
+%\usepackage{babel,blindtext}
+\usepackage{graphicx}
+\usepackage[top=.9in, bottom=.9in, left=1.5in, right=.8in]{geometry}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{float}
+\usepackage{listings}
+
+\renewcommand{\baselinestretch}{1.5} 
+\floatstyle{plaintop}
+\restylefloat{table}
+\newcommand\Fontvi{\fontsize{8}{10.2}\selectfont}
+\usepackage{sidecap}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true, %set true if you want colored links
+    linktoc=all,     %set to all if you want both sections and subsections linked
+    linkcolor=black,  %choose some color if you want links to stand out
+	citecolor=black %http://tex.stackexchange.com/questions/50747/options-for-appearance-of-links-in-hyperref
+}
+\restylefloat{table}
+\begin{document}
+\include{front}
+\include{certificate_main}
+\include{certificate}
+ \pagenumbering{roman}
+    \setcounter{page}{4} 
+\addcontentsline{toc}{chapter}{\bf ACKNOWLEDGEMENT}     
+\include{acknowledgement} 
+\addcontentsline{toc}{chapter}{\bf ABSTRACT} 
+\include{abstract} 
+\hypertarget{contents}{}
+\tableofcontents
+\listoftables
+\addcontentsline{toc}{chapter}{\bf LIST OF TABLES}
+\listoffigures
+\addcontentsline{toc}{chapter}{\bf LIST OF FIGURES}
+
+
+\clearpage
+\pagebreak
+\pagestyle{fancy}
+\lhead{\small {Evaluation Of Web Security Mechanisms Using Vulnerability Analysis \& Pattern Mining}}
+\chead{}
+\rhead{}
+\lfoot{\small {Department of Computer Science and Engineering, FISAT}}
+\cfoot{}
+\rfoot{\small {\thepage}}
+\renewcommand\headrulewidth{0.4pt}
+\renewcommand\footrulewidth{0.4pt}
+
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\include{introduction}
+\include{literature_survey}
+\include{methodology}
+%\include{exp_result}
+\include{conclusion}
+
+
+\begin{thebibliography}{8}
+\addcontentsline{toc}{chapter}{\bf BIBLIOGRAPHY}
+
+\bibitem{1}
+cgisecurity.net, www.cgisecurity.com/articles/csrf-faq.shtml\#
+whatis, Dec. 2008.
+
+\bibitem{2}
+G. Alvarez and S. Petrovic,  ``A New Taxonomy of Web Attacks Suitable for Efficient Encoding,'' Computers and Security, vol. 22,
+no. 5, pp. 435-449, July 2003
+
+%H. Chang, D.-Y. Yeung, and Y. Xiong,  ``Super-resolution through neigh-
+%bor embedding,'' in Proc. IEEE Conf. Comput. Vis. Pattern Recognit.,
+%Jul. 2004, pp. 275–282.
+
+
+\bibitem{3}
+S. Christey and R. Martin,  ``Vulnerability Type Distributions in
+CVE,'' Mitre Report, May 2007.
+
+\bibitem{4}
+J. Duraes and H. Madeira,  ``Emulation of Software Faults: A Field
+Data Study and a Practical Approach,'' IEEE Trans. Software Eng.,
+vol. 32, no. 11, pp. 849-867, Nov. 2006.
+
+\bibitem{5}
+M.R. Lyu, Handbook of Software Reliability Engineering. IEEE
+Computer Society Press \& McGraw-Hill, 1996.
+
+\bibitem{6}
+J. Williams and D. Wichers,  ``OWASP Top 10,'' OWASP Foundation, Feb. 2013.
+
+\bibitem{7}
+N. Neves, J. Antunes, M. Correia, P. Verissimo, and R. Neves,
+ ``Using Attack Injection to Discover New Vulnerabilities,'' Proc.
+IEEE/IFIP Int’l Conf. Dependable Systems and Networks, 2006.
+
+\bibitem{8}
+J. Fonseca, M. Vieira, and H. Madeira,  ``Testing and Comparing
+Web Vulnerability Scanning Tools for SQLi and XSS Attacks,''
+Proc. IEEE Pacific Rim Int’l Symp. Dependable Computing, Dec. 2007.
+
+\bibitem{9}
+S. Clowes,  ``A Study in Scarlet, Exploiting Common Vulnerabilities in PHP Applications,'' http://www.securereality.com.au/
+studyinscarlet.txt, 2013.
+
+\bibitem{10}
+B. Livshits and S. Lam,  ``Finding Security Vulnerabilities in Java
+Applications with Static Analysis,'' Proc. USENIX Security Symp.,
+pp. 18-18, 2005.
+
+\bibitem{11}
+M. Buchler, J. Oudinet, and A. Pretschner,  ``Semi-Automatic Security Testing of Web Applications from a Secure Model,'' Proc. Int’l
+Conf. Software Security and Reliability, 2012.
+
+\bibitem{12}
+S. McConnell, ``Gauging Software Readiness with Defect
+Tracking'', IEEE Software, vol. 14, no. 3, May/June 1997.
+
+\bibitem{13}
+N. Nagappan, L. Williams, J. Hudepohl, W. Snipes, M. Vouk,
+ ``Preliminary Results on Using Static Analysis Tools for Software
+Inspection.'' Proc. Int’l Symp. Software Reliability Eng., pp. 429-439,
+2004.
+\bibitem{14}
+OSVDB,  ``Open Sourced Vulnerability Database,'' http://osvdb.
+org, May 2013.
+\bibitem{15}
+D. Powell and R. Stroud,  ``Conceptual Model and Architecture of
+MAFTIA,'' Project MAFTIA, Deliverable D21, 2003.
+
+\bibitem{16}
+J. Fonseca and M. Vieira,  ``Mapping Software Faults with Web
+Security Vulnerabilities,'' Proc. IEEE/IFIP Int’l. Conf. Dependable
+Systems and Networks, June 2008
+
+\bibitem{17}
+S. Fogie, J. Grossman, R. Hansen, A. Rager, and P. Pektov, XSS
+Attacks: Cross Site Scripting Exploits and Defense. Syngress, 2007.
+Intell., vol. 32, no. 6, pp. 1127–1133, Jun. 2010.
+\bibitem{18}
+J. Arlat, A. Costes, Y. Crouzet, J.-C. Laprie, and D. Powell,  ``Fault
+Injection and Dependability Evaluation of Fault-Tolerant Systems,'' IEEE Trans. Computers, vol. 42, no. 8, pp. 913-923, Aug.
+1993.
+\bibitem{19}
+T. Scholte et al.,  ``An Empirical Analysis of Input Validation
+Mechanisms,'' Proc. ACM Symp. Applied Computing, pp. 1419-1426,
+2012.
+
+\bibitem{20}
+J. Carreira, H. Madeira, and J.G. Silva,  ``Xception: Software Fault
+Injection and Monitoring in Processor Functional Units,'' IEEE
+Trans. Software Eng., vol. 24, no. 2, Feb. 1998.
+
+\bibitem{21}
+ N. Tomatis, R. Brega, G. Rivera, and R. Siegwart,  ``May You Have
+ a Strong (-Typed) Foundation’ Why Strong Typed Programming
+ Languages Do Matter,'' Proc. IEEE Int’l Conf. Robotics and
+ Automation, 2004.
+ 
+\bibitem{22}
+J. Christmansson and R. Chillarege,  ``Generation of an Error Set
+that Emulates Software Faults,'' Proc. IEEE Fault Tolerant Computing Symp., 1996.
+\bibitem{23}
+H Madeira, M. Vieira, and D. Costa,  ``On the Emulation of Software Faults by Software Fault Injection,'' Proc. IEEE/IFIP Int‘l
+Conf. Dependable System and Networks, 2000.
+
+\bibitem{24}
+M. Cukier, R. Berthier, S. Panjwani, and S. Tan,  ``A Statistical
+Analysis of Attack Data to Separate Attacks,'' Proc. Int’l Conf.
+Dependable Systems and Networks, pp. 383-392, 2006.
+
+\end{thebibliography}
+\end{document}

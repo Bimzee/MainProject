@@ -1,0 +1,53 @@
+\chapter{INTRODUCTION}\label{chp:chapter1}
+\thispagestyle{fancy}
+Web applications are becoming common these days.The users of web 
+application range from individuals to organizations and corporate users.
+Web applications plays an important role in many of our daily activities such as social networking, email, banking, shopping,
+registrations etc.Since a web applications accessibility is very high, the impact of vulnerability in it will also increase dramatically compared to a normal software.Since web applications have huge number of users compared to that of other applications, it becomes a high potential target for attackers.
+\\
+\newline
+Developers of the web applications are having the direct responsibility for the security of web applications.But due to heavy pressure to meet the deadline or lack of knowledge or experience and time constraint limits developers focus on security issues of web applications. A web developer must have a thorough understanding about the magnitude and relevance of the assets they are supposed to protect. Some common reasons why securing a web application become a tricky are 1)availability of a number of frameworks and languages for the development 2)exposure to large number of audience 3)inexperience of developers and 4)need for accessing organizational resources remotely.  \\ 
+\newline
+So in order to secure a web application, their is a need to have security standards and tools to evaluate the security of them. Also the necessary counter measures have to be taken against the detected attacks. For implementing this, new tools and procedures must be developed and a proper training must be conducted in accordance with them.The testing procedures must be thorough and the application must be verified and validated.The existing legacy applications must be audited from time to time and must be patched or updated timely.\\
+\newline
+In order to test and validate the security mechanism of web applications a methodology and a tool to inject vulnerabilities and attack the web applications is proposed.The methodology is based on the idea that, it is possible to assess different attributes of existing web application security mechanisms by injecting realistic vulnerabilities in a web application and attacking them automatically.The methodology have evolved from the existing fault injection techniques.The set of ``vulnerability'' +
+``attack'' represents the space of the ``faults'' injected in a
+web application, and the ``intrusion'' is the result of the
+successful ``attack'' of a ``vulnerability'' causing the application to enter in an ``error'' state \cite{15}. A vulnerability can be considered as a weakness whose presence do not cause harm by itself but can be utilized for an attack. \\
+\newline
+ The attack injection consists of the introduction of realistic vulnerabilities that are afterwards
+automatically exploited.Vulnerabilities are
+considered realistic because they are derived from the
+extensive field study on real web application vulnerabilities  \cite{16}, and are injected according to a set
+of representative restrictions and rules.The attack injection methodology is based on the
+dynamic analysis of information obtained from the runtime monitoring of the web application behavior and of
+the interaction with external resources, such as the backend database. This information, complemented with the
+static analysis of the source code of the application,
+allows the effective injection of vulnerabilities that are
+similar to those found in the real world. The
+use of both static and dynamic analysis is a key feature
+of the methodology that allows increasing the overall performance and effectiveness, as it provides the means to
+inject more vulnerabilities that can be successfully
+attacked and discarded those that cannot.\\
+\newline
+This methodology can be applied to various
+types of vulnerabilities.The project focus on only some common exploits namely SQL Injection (SQLi), Cross Site Scripting(XSS), Remote Code Execution (RCE) and File Inclusion (FI).These kinds of attacks occur mainly due to improper validation of the input which allows the attacker to manipulate commands.\\
+\newline
+The proposed methodology provides a practical environment that can be used to test countermeasure mechanisms (such as intrusion detection systems (IDSs), web
+application vulnerability scanners, web application firewalls, static code analyzers, etc.), train and evaluate security teams, help estimate security measures (like the
+number of vulnerabilities present in the code), among
+others. This assessment of security tools can be done
+online by executing the attack injector while the security
+tool is also running; or offline by injecting a representative set of vulnerabilities that can be used as a testbed for
+evaluating a security tool.
+The methodology proposed will be implemented in a concrete Vulnerability \& Attack Injector Tool (VAIT) for web
+applications. The tool will test on top of widely used applications in two scenarios. The first to evaluate the
+effectiveness of the VAIT in generating a large number of
+realistic vulnerabilities for the offline assessment of security tools, in particular web application vulnerability
+scanners. Second, how it can exploit injected
+vulnerabilities to launch attacks, allowing the online evaluation of the effectiveness of the counter measure mechanisms installed in the target system, in particular an
+intrusion detection system\\
+\newline
+The rest of this report is organized as follows. Chapter \ref{chp:chapter2}, presents the literature survey. Chapter \ref{chp:chapter3} describes the proposed methodology and attack injections,   and Chapter \ref{chp:chapter5} summarizes the conclusion of the survey.
+%Chapter \ref{chp:chapter4},describes the proposed methods
+

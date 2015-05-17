@@ -1,0 +1,11 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces A normal Web Application Setup\relax }}{17}{figure.caption.4}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces VAIT setup\relax }}{17}{figure.caption.5}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces VAIT internal components\relax }}{19}{figure.caption.6}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Chain of variables from input to output of the Web Application.\relax }}{20}{figure.caption.7}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Using data from dynamic and static analysis to apply the vulnerability operators and inject a vulnerability.\relax }}{21}{figure.caption.8}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Fuzzer generated malicious variable value.\relax }}{22}{figure.caption.9}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces VAIT architecture.\relax }}{24}{figure.caption.10}
+\addvspace {10\p@ }

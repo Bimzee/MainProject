@@ -1,0 +1,385 @@
+\chapter{LITERATURE SURVEY}\label{chp:chapter2}
+\thispagestyle{fancy}
+Fault injection techniques have traditionally been used to
+inject physical (i.e., hardware) faults \cite{18} into a complex system.
+The method utilizes the use of fault injection for explicitly removing design or implementation faults in a complex fault tolerant system. 
+It explicitly aims in reducing, by verification, the presence of faults in the design or implementation. Here faults are injected to uncover potential issues and thus to determine the most appropriate action for improving the system.Compared to a fault injection system, a fault forecast system can use a feedback loop to impact the design of the system.Usually, fault-injection based attempts to validate systems that consist of test sequences where the input patterns (the injected faults) are selected according to fault or error models intending to simulate the consequences of activating real faults. Heavy ion radiation , pin-level fault injection, software-implemented fault injection , failure acceleration, fault injection in simulation models are typical techniques to perform this objective in the context of physical- or software-fault injection experiments. The fault-tolerance algorithms \& mechanisms (FTAM) formalism enables an execution tree to be generated, where each path from the root to
+a leaf of the tree is a well-defined formula. The set of well-defined
+formulas constitutes a useful framework that fully characterizes the test sequence. The input patterns of the test sequence (fault \& activation domains) then are determined to cover specific structural criteria over the execution tree (activation of proper sets of paths). This provides a framework for generating a functional deterministic test for programs.The main advantage of this system include generation of causing actual hardware faults, which may be close to a realistic fault model.\\
+\newline
+ The increasing complexity of systems has lead to the replacement of hardware-based techniques by software implemented fault injection (SWIFI), in which hardware faults are
+emulated by software eg. Xception \cite{20}. The high complexity and the very high speed of the processors available today make the design of the special
+hardware faults techniques very difficult, or even impossible. It is very difficult to control and observe the fault effects inside the processor compared to injecting the actual problem to the hardware. Even the detection of the activated faults is very complex. So to overcome these difficulties, simulation based fault injection has been proposed.
+The injection of realistic software faults (i.e., software
+bugs) has been absent from fault injection effort for a
+long time.In this method, faults are injected into a simulation model of the target system which allows to control the injection experiment. First proposals were based on ad-hoc code
+mutations \cite{22}, \cite{23}.Software Implemented Fault Injection techniques
+(SWIFI), also known as fault emulation is a common way for alternate implementation of fault injection method.In this method the application execution is interrupted some way and executing some  specific fault injection software code, which emulates hardware faults by inserting errors in different parts of the system such as the processor register, the memory, or in the application code.The main advantages of software fault injection are the low complexity, low development effort, and low cost.In addition,software fault injection tools have increased portability, can be easily expanded (e.g., for new classes of faults), and do not have problems with
+physical and electrical interferences which are very common in physical fault injection tools. The disadvantage of these method include fail to inject faults in peripheral devices and unable to check accuracy of address specific logic system if the hardware.In Xception by directly programming the debugging hardware
+inside the target processor, system can inject faults with minimum interference with the target application without modifying it.\\
+\newline
+%[24]
+More recent works focus on the injection of representative software faults based on comprehensive field studies on the most common types of software bugs  \cite{4}.The study
+shows that a clear predominance of software faults as the root
+cause of computer failures .Given the huge complexity of today's software, the weight of
+software faults on overall system dependability will tend
+to increase. The complete elimination of software defects
+during software development process is very difficult to
+attain in practice. In addition to well-known technical
+difficulties of the software development and testing
+process  \cite{5}, practical constraints such as the intense
+pressure to shrink time-to-market and cost of software
+contribute to the difficulties in assuring 100 percent
+defect-free software.So the current scenario in
+the computer industry is having systems in which
+software defects do exist but no one knows exactly where
+they are, when they will reveal themselves, and,the possible consequences of the activation of the software faults. Trend in the software industry toward a
+component-oriented development model, compels the software vendors to consider the use of commonly available general-purpose components more and more, which leads to the software products as a collection of small components from a variety of sources. These kinds of software have the problems like when one of the component software behave erroneous, the entire system become faulty and how to estimate this kind of situations.In order to validate a component software system, an approach to inject
+residual software faults at the executable code of the targets
+in an accurate manner has been proposed \cite{5}.The establishment
+of a utilization scenario for the injection of software faults
+from the beginning is important to help in identifying the
+requirements put on the accurate emulation of software
+faults.
+The software fault are injected according to the following principle:\\
+\newline
+Faults are injected in a given component to evaluate the behavior of
+the overall system in the presence of that faulty component.This help to have a separation between target component and system under observation.The behavior of the system under the presence of one faulty component is observed.Using this scenario three major uses can be identified 
+\begin{enumerate}
+	\item Validation of fault-tolerant mechanisms.
+	\item Prediction of worst-case scenarios and experimental risk assessment.
+	\item Dependability benchmarking.
+\end{enumerate}
+The realistic emulation of residual software faults by fault injection at the target executable code is much more difficult. In fact, the problem of emulating software faults is intrinsically difficult. Software faults are by nature human-made faults (at the design, implementation, etc.) and it is extremely difficult to model human errors.\\
+\newline
+Fault injection techniques to assess the security
+is a particular case of software fault injection,
+focusing on software faults that represent security vulnerabilities.The existence of a vulnerability may not cause
+a security hazard, and in many times they can remain dormant for many years until right attack is discovered and applied to exploit that vulnerability.After an intrusion, the system might
+or might not fail, depending on the kind of capabilities it
+possesses to deal with errors introduced by the attacker.Intrusions would never arise if all vulnerabilities could be eliminated. Vulnerability removal  \cite{7} can be performed both during the development and operational phases. Vulnerability removal in the operational phase helps to identify programming flaws which can later be corrected. It also assists
+the discovery of configuration errors and other similar problems and can reduce the accessibility of the attacker by reducing the number of entry points into the system.Nuno Neves et all \cite{7}  presents a tool called AJECT (Attack inJECtion Tool) that can be used for vulnerability detection
+and removal. It simulates the behavior of an adversary by injecting attacks against a target system. Then, it observes the execution of the system to determine if the attacks have caused a failure.If a failure occurs then there exist a vulnerability in the system.If a bug is identified, a developer can use a traditional debugging method and can eliminate the presence of it.AJECT targets network servers and local demons.It performs a blackbox testing knowing only the protocol specifications.Experiments with AJECT was conducted with IMAP servers and was able to detect identified bugs in the bug tracking system as well as new bugs which are not yet identified.\\
+\newline
+%Analysis of field data
+Security of Web applications has become increasingly
+important in the recent time. Nearly all information systems and business
+applications  are now built as web-based
+database applications.The exposure of web application to a wide user audience make it more prone to attacks.Hence an existing vulnerability in web application will most probably be uncovered and will be exploited.Traditional defense strategies such as firewalls do not protect against Web application attacks, as these attacks rely
+solely on HTTP traffic, which is usually allowed to pass
+through firewalls unhindered.In recent years strongly typed languages like Java \cite{10}, has emerged as the language of choice for building large complex Web-based systems mainly due to language safety features that restrict direct memory access and eliminate problems such as buffer overruns.But, however secure the language is, a logical error can cause a vulnerability in the application which can lead to the failure of the system.Software faults can be detected by performing a static analysis to the code \cite{10}. This is a labor intensive job, usually done with automated tools, although they lack the precision of the manual counterpart.\\
+\newline
+One of the aspects that contribute to security problems
+seems to be related to how bad different programming
+languages are in terms of propensity for mistakes. Clowes  \cite{9}
+discussed common security problems related to the easiness
+in programming with PHP and its features, but this affects
+many other programming languages. The choice of the type
+system (strong or weak) and the type checking (static or
+dynamic) of the programming language also affects the
+robustness of the software. For example, a strong typed
+language with a static type checking can help deliver a safer
+application without affecting its performance  \cite{21}. Scholte et
+al.  \cite{19} presented an empirical study on a large set of input
+validation vulnerabilities developed in six programming
+languages. However, that work focused on the relationship
+between the specific programming language used and the
+vulnerabilities that are commonly reported, not going into
+details in what concerns the typical software faults that
+originate vulnerabilities.\\
+\newline
+The use of software code inspections, has been found
+to increase software quality and lower software
+development costs.Prior studies indicate that
+inspections can detect as little as 20\% to as much as
+93\% of the total number of defects in a software.
+ To improve the software quality  and to help predict software failures, a new
+defect classification scheme was proposed in  \cite{13}.Automated software inspection
+(ASI) tools are usually utilized as static analysis tools, coding standard
+analysis tools, and source code analysis tools.These
+tools produce error messages similar to those of a
+compiler. However, they identify additional faults, such
+as coding standard non-compliance, uncaught runtime
+exceptions, security vulnerabilities, redundant code,
+division by zero, and memory leaks.ASI tools are intended to identify faults which
+allow the software engineers to recode before they
+surface more publicly as manual inspections faults or as
+test and field failures. the removal of the defects found by the
+ASI can allow the labor-intensive manual reviews to be
+more efficient and to focus on more complex, functional
+and algorithmic defects.\\
+\newline
+Measuring significance of software vulnerability can done by analyzing the likelihood of vulnerability discovery.So in-order to understand the software security, the vulnerability discovery's model(VDM) is created. Software  security
+is  the  ability  of  a  system  to  perform  its  required  functions
+without software-caused violations of its explicit or implicit security policy.For a better understanding software security, two natures of software systems are considered.
+\begin{enumerate}
+	\item \textbf{Engineering nature: }characterizing features like when was a vulnerability introduced, when was it discovered, how is the
+	source code of a system changing, etc. This approach employs statistical analysis of
+	vulnerabilities that have already been discovered and characteristics of the systems
+	in which they were discovered.
+	\item \textbf{Economic nature: }characterizing features like what is the auction-ascertained price
+	of a previously-unreported vulnerability in a specific system. Entities offer a steadily
+	increasing reward for a vulnerability in a system: the first person to report such a
+	vulnerability receives the reward. The reward serves as both an incentive to find a
+	vulnerability and a measurement of the perceived value of that vulnerability
+\end{enumerate} 
+  These two approaches provide insight into the number of vulnerabilities in a
+  system, the rate at which they are detected, and the difficulty in doing so.Unfortunately neither of the approach can fully provide information on how many vulnerabilities exist in a system.\\
+  \newline  
+%main paper
+The industry uses fuzzing and mutation testing to automate penetration testing of web applications. They rely on web application vulnerability scanner tools that also generate reports compliant with security regulations. Some of the best known of such tools are HP WebInspect, IBM Watchfire AppScan,Acunetix web application security scanner and WebSphinx. In spite of their continuous development, these tools still have many problems related to the high number
+of undetected vulnerabilities and high percentage of false positives, as shown by several studies  \cite{8}. To address these problems, it was proposed a method to benchmark these scanners  \cite{8}. The method starts by identifying all the points where each type of bug can be injected, then injecting the bug. Many of these bugs injected are vulnerabilities that can be used to test and
+compare the performance of the scanners.\\
+\newline
+Web applications usually are not monolithic
+but consist of several distributed components. During the
+development of the use communication protocols and the web
+components, different tools and programming languages may
+be used.White-box penetration testing tools usually require that all applications are developed
+in the same language (e.g., PHP ,Java etc) which is usually not the case in distributed environments.Black-box penetration testing tools are not really effective due to the weaknesses of
+the crawling step that misses lots of potential interaction with the user So the use of a model checkers for security analysis was proposed  \cite{11}.A formal model \textbf{M} for the
+specification of the System Under Validation (SUV) is  used.  In this case, the vulnerability is injected by
+mutating the formal model of the web application.First, the model  mutated to introduce specific
+vulnerabilities present in web applications. Then, a model checker outputs attack traces that exploit those vulnerabilities. 
+Next, the attack traces are translated into concrete test cases by
+using a 2-step mapping. Finally, the tests are executed on the
+real system using an automatic procedure that may request the
+help of a test expert from time to time. The model is also used to generate test cases that are used to attack the web application in a semi-automatic way.\\
+\newline 
+In a competitive commercial software market release of softwares must meet the strict deadlines \cite{12}. A companies survival depends on the time at which the software is released to the market.In such a situation the question arise is ``Is the software good enough to release now? ''. An easiest ways to judge whether a program is ready for release is to measure its defect density — the number of defects per
+line of code. Suppose the first version of your
+product consists  of 100,000 lines
+of code. Further suppose that you detected 650
+defects prior to the software's release, and that 50
+more defects were reported after release. The
+software therefore had a lifetime defect count of
+700 defects, and a defect density of 7 defects per
+1,000 lines of code (KLOC).\\
+\newline
+ Another simple defect prediction
+ technique is to separate defect reports into two
+ groups; say Pool A and Pool B, and then track the defects in these two pools separately. The distinction between the pools is arbitrary ie. it is possible to put all the defects discovered on
+ Mondays, Wednesdays, and weekends into Pool
+ A, and the rest into Pool B. or split the test team down the middle and put each subgroup's reported defects into its own pool. It
+ doesn't matter how the group is divided as long as both subgroups operate independently and both
+ test the full scope of the product.\\
+ \newline
+ After grouping, track the number of defects reported
+ in each pool and the
+ number of defects reported.The number of unique defects reported at any given time is\\
+ 
+ $ Defects_{ unique} = Defects _{A} +  Defects_{ B} - Defects_{ (A+B)} $\\
+ 
+ The number of total defects can then be
+ approximated by the simple formula\\
+
+{ $ Defects_{total} = \frac{Defects_{ A} * Defects_{ B}}{Defects_{ (A+B)}} $} \\
+
+The attacker's perspective has also been of some focus in
+the literature  \cite{9}, \cite{17}, \cite{23}, but mainly through
+empirical data gathered by the authors highlighting social
+networking and what could be obtained from attacking
+specific vulnerabilities. Some studies analyzed the attacks
+from the victim's perspective, including the proposal of a
+taxonomy to classify attacks based on their similarities \cite{2}
+and the analysis of attack traces from HoneyPots to separate
+the attack types \cite{24}. There is, however, a lack of knowledge
+about existing exploits and their correlation with the
+vulnerabilities.\\
+\newline
+%Main
+The list of possible types of vulnerabilities affecting web
+applications is enormous, but XSS and SQLi are at the top of
+that list, accounting for 32 percent of the vulnerabilities
+observed \cite{3},\cite{6}.\\
+\newline An SQLi attack consists of tweaking the input fields of
+the webpage (which can be visible or hidden) in order to
+alter the query sent to the back-end database. 
+SQL injection attacks pose a serious security threat to Web applications \cite{14}: they allow attackers to obtain unrestricted access to the
+databases underlying the applications and to the potentially sensitive information these databases contain.This allows
+the attacker to retrieve sensible data or even alter database
+records.In some cases, attackers can even
+use an SQL injection vulnerability to take control of and corrupt the
+system that hosts the Web application.SQL injection refers to a class of code-injection attacks in which
+data provided by the user is included in an SQL query in such a
+way that part of the user’s input is treated as SQL code.By leveraging these vulnerabilities, an attacker can submit SQL commands
+directly to the database. These attacks are a serious threat to any
+Web application that receives input from users and incorporates it
+into SQL queries to an underlying database. Most Web applications
+used on the Internet or within enterprise systems work this way and
+could therefore be vulnerable to SQL injection.\\
+\newline
+There are many
+types of SQLIAs and countless variations on these basic types. The different types of attacks are generally not performed in isolation; many of them are used together or sequentially, depending
+on the specific goals of the attacker. Some representative examples include
+\begin{enumerate}
+	\item \textbf{Tautologies}: used for Bypassing authentication, identifying injectable parameters, extracting data.
+	\item \textbf{Illegal/Logically Incorrect Queries}: used for  Identifying injectable parameters, performing database
+	finger-printing, extracting data.
+	\item \textbf{Union Query}: used for Bypassing Authentication, extracting data.
+	\item \textbf{Piggy-Backed Queries}: used for Extracting data, adding or modifying data, performing denial of service, executing remote commands.
+	\item \textbf{Stored Procedures}: used for Performing privilege escalation, performing denial of service, executing remote commands.
+	\item \textbf{Inference}: used for Identifying injectable parameters, extracting data,
+	determining database schema.
+	\item \textbf{Alternate Encodings}: used for Evading detection.
+\end{enumerate}
+ An SQLi attack can be dormant for a while and
+only be triggered by a specific event, such as the periodic
+execution of some procedures in the database.
+\\
+\newline
+A XSS attack consists of injecting HTML and/or other
+scripting code (usually Javascript) in a vulnerable webpage. It exploits the common utilization of the user input
+(without sanitizing it first) as a building part of a webpage.
+When this occurs, by tweaking the input, the attacker is
+able to change some of its functions, allowing him to take
+advantage of users visiting that webpage. This attack
+exploits the confidence a user (victim) has on the website,
+allowing the attacker to impersonate these users and even
+execute other types of attacks such as cross site request
+forgery (CSRF)  \cite{1}. The injection of XSS can also be persistent if the malicious string is stored in the back-end database of the web application, therefore potentiating its
+malicious effects in a much broader way.Cross-site scripting vulnerabilities date back to 1996 during the early days of the World
+Wide Web (Web).Hackers found that when unsuspecting users visited their Web pages they could forcibly
+load any Web site (bank, auction, store, Web mail, and so on) into an HTML Frame within
+the same browser window.Then using JavaScript, they could cross the boundary between
+the two Web sites, and read from one frame into the other.They were able to pilfer usernames and passwords typed into HTML Forms, steal cookies, or compromise any confidential information on the screen.\\
+\newline
+An  XSS  attack  manipulates  content  of  a  Web  application 
+and  trick  users  into  opening  that  page.  A  typical
+XSS  attack work as follows:
+\begin{enumerate}
+	\item Form  on  the  page  asks  user  for  clicking  a  link,  or 
+	entering username or password.
+	\item  User takes the data submitted by the victim and store it 
+	in a database
+	\item User displays that data on the screen to other users.
+	\item Malicious user submits Script in their form submission, 
+	which  performs  an  action  when  other  users  visit  the  page 
+	displaying the data they submitted
+\end{enumerate}
+XSS vulnerabilities can be divided into following types:
+\begin{enumerate}
+	\item Injection via URL
+	\item Injection by exploiting client side code
+	\item Injection by exploiting external feed displayed on a website
+	\item Injection via permanently displayed data
+\end{enumerate}
+Cross-site scripting poses severe application risks as the users can unknowingly execute malicious scripts while viewing
+dynamically generated pages or content provided by an attacker. An attacker can take over the user session before the
+user's session cookie expires. An attacker can connect users to a malicious server of his choice. An attacker who can
+convince a user to access a URL supplied by the attacker could cause script or HTML of the attacker's side to be
+executed in the user's browser.\\
+\newline
+A contribution to better understand the most common
+vulnerabilities in web applications was presented in a field
+study that classified 655 XSS and SQLi security patches of
+six widely used Linux, Apache, MySQL and PHP (LAMP)
+web applications \cite{16}.When application vulnerabilities are discovered,
+software developers correct the problem releasing
+application updates or patches. These patches correcting
+vulnerabilities were used to understand
+which code is responsible for security problems. With
+this approach the code which caused security flaws can be classified.\\
+For each web application tested, the methodology to
+classify the security patches is the following:
+\begin{enumerate}
+	\item Verification of the patch to confirm if the version of
+	the web application is available.
+	\item  Analysis of the code with the vulnerability and of the
+	code after being patched.
+	\item  Classification of each code fix that is found in the
+	patch.
+	\item  Loop through the previous steps until all available
+	patches of the web application are analyzed.
+\end{enumerate}
+The study only deals  with
+code defects and hence only use the Orthogonal Defect Classification (ODC) defect types
+that are directly related to the code are considered.These defect types
+are: \textbf{Assignment} (errors in code
+initialization), \textbf{Checking} (errors in program logic and
+validation), \textbf{Interface} (errors interacting among
+components), and \textbf{Algorithm} (errors related to the need
+of algorithm change without a design change).\\
+\newline
+Remote Code Execution (RCE) vulnerability refers to an attacker's ability to execute arbitrary program code on a target server. It is caused by user inputs
+in security sensitive functions such as file system calls (e.g., $ fwrite $), code execution functions (e.g., $ eval $), command execution
+functions (e.g., $ system $), and directory creating functions (e.g., $ mkdir $).
+It allows a remote attacker to execute arbitrary code in the system with administrator privileges. It is an extremely risky
+vulnerability, which can expose a web site to different attacks, ranging from malicious deletion of data to web page defacing.
+The following code depicts an RCE vulnerability.
+\begin{lstlisting}
+$comments = $_POST['comments'];
+$log = fopen('comments.php','a');
+fwrite($log,'<br />'.'<br />'.'<center>'.'Comments::'.'<br />'.
+		$comments); //remote code execution possibility
+\end{lstlisting}
+The above code retrieves user comments and logs them without sanitization. This means that an attacker can execute
+malicious requests, ranging from simple information gathering using phpinfo() to complex attacks that obtain a shell on the
+vulnerable server using $ shell\_exec() $.
+Other sensitive PHP functions and operations associated with this vulnerability type include $ header $, $ preg\_replace() $ with ``/e''
+modifier on,
+\begin{lstlisting}
+ fopen, vassert, create_function, unserialize, 
+ $_GET['func_name'], and $_GET['argument'].
+\end{lstlisting}
+
+
+File Inclusion vulnerability refers to an attacker’s ability to include a file that originates from a remote (possibly an attacker’s) server or
+ability to access/include a local file that is not intended to be accessed without proper authorization. It is caused by user inputs
+being part of filenames or the use of un-initialized variables in file operations. Consider the following code:
+\begin{lstlisting}
+include($_GET['file']); //remote file inclusion possibility
+\end{lstlisting}
+An attack may conduct a file inclusion attack using the following values:
+\begin{lstlisting}
+/include.php?file=http://evil.com/malicious.php
+\end{lstlisting}
+This attack causes the vulnerable PHP program to include and execute a malicious PHP file that may cause dangerous
+program behaviors. Similar PHP commands that may cause FI vulnerability includes $ include\_once, require, $ and $ require\_once. $
+Moreover, an FI vulnerability may also appear with PHP operations that involve file accesses and file operations in which the
+attacker may be able to view restricted files, or even execute malicious commands on the web server that can lead to a full
+compromise of the system. For example, consider the following code:
+\begin{lstlisting}
+$handle = fopen($_GET['newPath'], "r"); 
+//local root file access possibility
+\end{lstlisting}
+In the above case, the input newPath is received from the HTTP GET parameter. An attacker could provide a value like\\
+%\begin{lstlisting}
+newPath $ \rightarrow $ ``../../../../../etc/passwd\%00.txt'' \\
+%\end{lstlisting}
+in order to access the password file from the file system. The expression$  ‘dot-dot-slash (../)’ $ instructs the system to go one
+directory up. The attacker has to guess how many directories he has to go up to find the user confidential folder on the system, but
+this can be easily done by trial and error. This vulnerability is also known as \textit{directory traversal}
+
+\section{ METHOD COMPARISON}
+
+\begin{table}[H]
+	\begin{center}
+	\caption{Comparison of various vulnerability analysis methods}
+	\label{t1}
+	\begin{tabular}{ | m{7cm} | m{3cm}| m{3.5cm} | }%  {|c|c|c|}
+		\hline \qquad \qquad \textbf{Paper Name}  & \textbf{Method Used} & \textbf{Implemented on} \\ 
+		\hline Fault Injection and
+		Dependability Evaluation of Fault-Tolerant Systems  & Fault Injection  & Hardware Level \\ 
+		\hline Xception: Software Fault Injection and Monitoring in Processor Functional Units & Fault Injection & Software Simulation \\ 
+		\hline Emulation of Software Faults:
+		 A Field Data Study and a Practical Approach & Bug Injection & Software Components \\ 
+		\hline Using Attack Injection to Discover 
+		New Vulnerabilities  & Server Software & IMAP \\ 
+		\hline Finding Security Vulnerabilities in Java Applications with	Static Analysis & Static Code Analysis & Java \\ 
+		\hline Preliminary Results on Using Static Analysis Tools for Software Inspection  & Source Code Analysis & Coding Standard \\ 
+		\hline Semi-Automatic Security Testing of  Web
+		Applications from a Secure Model  & Modal Analysis & Web Application Model \\ 
+		\hline 
+		Gauging Software Readiness with Defect Tracking
+		 & Defect Density & Software Defects\\
+		 \hline
+ 
+	\end{tabular} 
+\end{center}
+\end{table}
+
+
+
+
+
