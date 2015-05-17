@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.30)  17 MAY 2015 17:44
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.30)  17 MAY 2015 20:34
 entering extended mode
 **beamer-template.tex
-(G:\Code\LatexTemplates\BeamerTemplate\beamer-template.tex
+(G:\Code\LatexTemplates\MainProject\FinalPresentation\beamer-template.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -888,22 +888,22 @@ LaTeX Info: Redefining \textlatin on input line 82.
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(G:\Code\LatexTemplates\BeamerTemplate\beamer-template.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 47.
+(G:\Code\LatexTemplates\MainProject\FinalPresentation\beamer-template.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 49.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ppl.fd"
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
@@ -957,7 +957,7 @@ File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 \everyMPtoPDFconversion=\toks46
 ) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box60
-Package hyperref Info: Link coloring OFF on input line 47.
+Package hyperref Info: Link coloring OFF on input line 49.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -967,51 +967,51 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count170
 )
-LaTeX Info: Redefining \ref on input line 47.
-LaTeX Info: Redefining \pageref on input line 47.
-LaTeX Info: Redefining \nameref on input line 47.
+LaTeX Info: Redefining \ref on input line 49.
+LaTeX Info: Redefining \pageref on input line 49.
+LaTeX Info: Redefining \nameref on input line 49.
 
-(G:\Code\LatexTemplates\BeamerTemplate\beamer-template.out)
-(G:\Code\LatexTemplates\BeamerTemplate\beamer-template.out)
+(G:\Code\LatexTemplates\MainProject\FinalPresentation\beamer-template.out)
+(G:\Code\LatexTemplates\MainProject\FinalPresentation\beamer-template.out)
 \@outlinefile=\write5
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/ppl/m/n on input line 47.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 47.
+(Font)                  OT1/cmr/m/n --> OT1/ppl/m/n on input line 49.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/ppl/bx/n on input line 47.
+(Font)                  OT1/cmr/bx/n --> OT1/ppl/bx/n on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/ppl/bx/n on input line 47.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 47.
+(Font)                  OT1/cmr/bx/n --> OT1/ppl/bx/n on input line 49.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/phv/m/n on input line 47.
+(Font)                  OT1/cmss/m/n --> OT1/phv/m/n on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/phv/m/n on input line 47.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 47.
+(Font)                  OT1/cmss/bx/n --> OT1/phv/m/n on input line 49.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/ppl/m/it on input line 47.
+(Font)                  OT1/cmr/m/it --> OT1/ppl/m/it on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/ppl/m/it on input line 47.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 47.
+(Font)                  OT1/cmr/bx/it --> OT1/ppl/m/it on input line 49.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 47.
+(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 47.
+(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 49.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/ppl/m/n --> OT1/ppl/bx/n on input line 47.
+(Font)                  OT1/ppl/m/n --> OT1/ppl/bx/n on input line 49.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/ppl/m/it --> OT1/ppl/bx/it on input line 47.
+(Font)                  OT1/ppl/m/it --> OT1/ppl/bx/it on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/ppl/bx/n on input line 47.
+(Font)                  OT1/cmr/bx/n --> OT1/ppl/bx/n on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/ppl/bx/n --> OT1/ppl/bx/n on input line 47.
+(Font)                  OT1/ppl/bx/n --> OT1/ppl/bx/n on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 47.
+(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/ppl/m/it --> OT1/ppl/bx/it on input line 47.
+(Font)                  OT1/ppl/m/it --> OT1/ppl/bx/it on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/pcr/m/n --> OT1/pcr/bx/n on input line 47.
+(Font)                  OT1/pcr/m/n --> OT1/pcr/bx/n on input line 49.
 
 (C:\Users\Bimal\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\dic
 ts\translator-basic-dictionary\translator-basic-dictionary-English.dict
@@ -1039,25 +1039,25 @@ Dictionary: translator-numbers-dictionary, Language: English
 ts\translator-theorem-dictionary\translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 47.
+LaTeX Info: Redefining \includegraphics on input line 49.
 
-(G:\Code\LatexTemplates\BeamerTemplate\beamer-template.nav)
+(G:\Code\LatexTemplates\MainProject\FinalPresentation\beamer-template.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 74.
+(hyperref)                setting the option has no effect on input line 76.
 
 [1{C:/Users/Bimal/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 ]
-(G:\Code\LatexTemplates\BeamerTemplate\beamer-template.toc) [2
+(G:\Code\LatexTemplates\MainProject\FinalPresentation\beamer-template.toc)
+[2
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 95.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+LaTeX Font Info:    Try loading font information for U+msa on input line 97.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 95.
+LaTeX Font Info:    Try loading font information for U+msb on input line 97.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1070,7 +1070,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 139.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 141.
  [6
 
 ] [7
@@ -1089,118 +1089,125 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
 
 ] [14
 
+] [15
+
 ]
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
- [15
-
-] [16
+ [16
 
 ] [17
 
+] [18
+
 ]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 340.
- [18
-
-] [19
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 353.
+ [19
 
 ] [20
 
 ]
-LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 391.
+[21
 
-Overfull \hbox (1.2998pt too wide) in paragraph at lines 391--391
+]
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 403.
+
+Overfull \hbox (1.2998pt too wide) in paragraph at lines 403--403
 []\OT1/ppl/b/n/10 Sl.No.| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 391--391
-[]\OT1/ppl/m/n/10 Static Code
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+[]\OT1/ppl/m/n/10 Programming
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 391--391
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+\OT1/ppl/m/n/10 Lan-guage Ef-fi-
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 403--403
 []\OT1/ppl/m/n/10 Preliminary Re-sults on Us-ing
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 391--391
+Underfull \hbox (badness 1024) in paragraph at lines 403--403
 \OT1/ppl/m/n/10 Static Anal-y-sis Tools for Soft-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 391--391
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
 []\OT1/ppl/m/n/10 Source Code
  []
 
 
-Underfull \hbox (badness 2012) in paragraph at lines 391--391
+Underfull \hbox (badness 2012) in paragraph at lines 403--403
 []\OT1/ppl/m/n/10 Semi-Automatic Se-cu-rity Test-
  []
 
 
-Underfull \hbox (badness 1668) in paragraph at lines 391--391
+Underfull \hbox (badness 1668) in paragraph at lines 403--403
 []\OT1/ppl/m/n/10 Web Ap-pli-ca-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 391--391
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
 []\OT1/ppl/m/n/10 Gauging Soft-ware Readi-ness
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21
+ [22
 
 ]
-[22] [23
+[23] [24
 
-] <Main/Fig2.jpg, id=746, 246.9225pt x 201.75375pt>
+] <Main/Fig2.jpg, id=776, 246.9225pt x 201.75375pt>
 File: Main/Fig2.jpg Graphic file (type jpg)
 
 <use Main/Fig2.jpg>
-Package pdftex.def Info: Main/Fig2.jpg used on input line 429.
+Package pdftex.def Info: Main/Fig2.jpg used on input line 441.
 (pdftex.def)             Requested size: 215.10196pt x 175.75215pt.
- [24
+ [25
 
- <G:/Code/LatexTemplates/BeamerTemplate/Main/Fig2.jpg>]
-[25
+ <G:/Code/LatexTemplates/MainProject/FinalPresentation/Main/Fig2.jpg>] [26
 
 ]
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no “ in font cmr9!
- [26
+ [27
 
-] [27
+] [28
 
-] <Main/fig7.jpg, id=871, 385.44pt x 413.29407pt>
+] <Main/fig7.jpg, id=901, 385.44pt x 413.29407pt>
 File: Main/fig7.jpg Graphic file (type jpg)
 
 <use Main/fig7.jpg>
-Package pdftex.def Info: Main/fig7.jpg used on input line 503.
+Package pdftex.def Info: Main/fig7.jpg used on input line 515.
 (pdftex.def)             Requested size: 215.10196pt x 230.64218pt.
 
-Overfull \vbox (41.4686pt too high) detected at line 503
+Overfull \vbox (41.4686pt too high) detected at line 515
  []
 
-[28
+[29
 
- <G:/Code/LatexTemplates/BeamerTemplate/Main/fig7.jpg>] [29
-
-] [30
+ <G:/Code/LatexTemplates/MainProject/FinalPresentation/Main/fig7.jpg>]
+[30
 
 ] [31
 
+] [32
+
 ]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 528.
-
-[32
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 540.
+ [33
 
 ]
 Missing character: There is no â in font pplr7t!
@@ -1233,53 +1240,51 @@ Missing character: There is no ˜ in font pplr7t!
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
- [33
-
-] [34
-
+ [34
 
 ] [35
+
+
+] [36
 
 ]
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 650.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 650.
- (G:\Code\LatexTemplates\BeamerTemplate\beamer-template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 650.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 650.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 662.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 662.
+
+(G:\Code\LatexTemplates\MainProject\FinalPresentation\beamer-template.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 662.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 662.
 Package rerunfilecheck Info: File `beamer-template.out' has not changed.
 (rerunfilecheck)             Checksum: F42CF8ECAA56BD4D37F0AAD443DD0765;194.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 650.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 662.
  ) 
 Here is how much of TeX's memory you used:
- 20722 strings out of 493921
- 416771 string characters out of 3144875
+ 20723 strings out of 493921
+ 417003 string characters out of 3144875
  489522 words of memory out of 3000000
  23417 multiletter control sequences out of 15000+200000
  33423 words of font info for 89 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  56i,15n,65p,396b,548s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Navigation36} has been referenced but does not ex
-ist, replaced by a fixed one
-
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/
-fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/amsfonts/symbols/msam7.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/type1/urw/palatino/uplr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
-/urw/palatino/uplri8a.pfb>
-Output written on beamer-template.pdf (35 pages, 462908 bytes).
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/symbols/msam7.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/urw/palatino/uplr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
+e1/urw/palatino/uplri8a.pfb>
+Output written on beamer-template.pdf (36 pages, 469210 bytes).
 PDF statistics:
- 1198 PDF objects out of 1200 (max. 8388607)
- 103 named destinations out of 1000 (max. 500000)
+ 1227 PDF objects out of 1440 (max. 8388607)
+ 104 named destinations out of 1000 (max. 500000)
  85 words of extra memory for PDF output out of 10000 (max. 10000000)
 

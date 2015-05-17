@@ -4,6 +4,8 @@
 %%  without attribution.
 %%
 %%  Last Modified: January 9, 2009
+%% http://tex.stackexchange.com/questions/112396/texstudio-texmaker-and-github
+
 %%
 
 \documentclass[xcolor=x11names,compress]{beamer}
@@ -116,7 +118,7 @@
 %\subsection{Securing the Web Applications}
 \begin{frame}{Securing the Web Applications}
 	\begin{itemize}
-		\item Security Standers
+		\item Security Standards
 		\newline
 		\item Tools for evaluating security.
 		\newline
@@ -188,7 +190,7 @@
 	fault are injected according to following principle:
 	
 	\begin{itemize}
-		\item Fault is injected to a component to evaluate the component in the presence of faulty component.
+		\item Fault is injected to a component to evaluate it in the presence of faulty component.
 		
 		\begin{itemize}
 			\item Separation between target component and system under observation.
@@ -208,10 +210,12 @@
 
 \begin{frame}{[4] Using Attack Injection
 		to Discover New Vulnerabilities}
+	\large
+	Vulnerability
 	\begin{itemize}
 		\item Existence
-		of a vulnerability may not cause a security hazard until it is exploited.
-		\item Intrusion can be prevented by removing vulnerability.
+		of a vulnerability may not cause a security hazard until it is exploited.\newline
+		\item Intrusion can be prevented by removing vulnerability.\newline
 		\item Can be done at -
 		\begin{enumerate}
 			\item Development phase : identify programming flaws. 
@@ -257,6 +261,15 @@
 	\end{itemize}
 \end{frame}
 
+\begin{frame}{Static Analysis}
+	\large
+	Static Analysis
+	\begin{enumerate}
+		\item Tainted Object Propagation.\newline
+		\item Specifications Completeness. \newline
+		\item Static Analysis
+	\end{enumerate}
+\end{frame}
 \begin{frame}{[6] An Empirical Analysis of Input Validation Mechanisms}
 	\begin{itemize}
 		\item Application Security \& Programing Language efficiency.
@@ -284,7 +297,7 @@
 		discovery’s model(VDM)
 		\begin{itemize}
 			\item Ability of a system to perform
-			its required functions without software-caused violations of its explicit or implicit security
+			its required functions without software-caused violations on security
 			policy.
 			
 		\end{itemize}
@@ -339,8 +352,7 @@
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{[9] Gauging Software Readiness with De-
-		fect Tracking}
+\begin{frame}{[9] Gauging Software Readiness with Defect Tracking}
 \begin{itemize}
 	\item In competitive commercial market,time of release is very important for software.
 	\item Strict Deadlines have to be met for programmers.
@@ -355,8 +367,7 @@
 \end{frame}
 \begin{frame}{contd \dots}
 	\begin{itemize}
-		\item Track the number of defects reported in each pool and the number of total
-		defects reported. \newline
+		\item Track the number of defects reported and total number of defects reported. \newline
 		{ $ Defects_{total} = \frac{Defects_{ A} * Defects_{ B}}{Defects_{ (A+B)}} $}\newline
 		\item The number of unique defects reported at any given time is: \newline
 		 $ Defects_{ unique} = Defects _{A} +  Defects_{ B} - Defects_{ (A+B)} $
@@ -368,8 +379,8 @@
 	\begin{center}
 		\small
 		\caption{Comparison of various vulnerability analysis methods}
-		\scalebox{0.8}{
-		\begin{tabular}{|p{.95cm} | p{5cm} | p{2.5cm}| p{2.75cm} | }%  {|c|c|c|}
+		\scalebox{0.7}{
+		\begin{tabular}{|p{.95cm} | p{5cm} | p{2.75cm}| p{2.75cm} | }%  {|c|c|c|}
 			\hline\textbf{Sl.No.} & \qquad \qquad \textbf{Paper Name}  & \textbf{Method Used} & \textbf{Implemented on} \\ 
 			\hline 1 & Fault Injection and
 			Dependability Evaluation of Fault-Tolerant Systems  & Fault Injection  & Hardware Level \\ 
@@ -379,10 +390,11 @@
 			\hline 4 & Using Attack Injection to Discover 
 			New Vulnerabilities  & Server Software & IMAP \\ 
 			\hline 5 & Finding Security Vulnerabilities in Java Applications with	Static Analysis & Static Code Analysis & Java \\ 
-			\hline 6 & Preliminary Results on Using Static Analysis Tools for Software Inspection  & Source Code Analysis & Coding Standard \\ 
-			\hline 7 & Semi-Automatic Security Testing of  Web
+			\hline 6 & An Empirical Analysis of Input Validation Mechanisms & Programming Language Efficiency & Type System and Type Checking \\
+			\hline 7 & Preliminary Results on Using Static Analysis Tools for Software Inspection  & Source Code Analysis & Coding Standard \\ 
+			\hline 8 & Semi-Automatic Security Testing of  Web
 			Applications from a Secure Model  & Modal Analysis & Web Application Model \\ 
-			\hline 8 &
+			\hline 9 &
 			Gauging Software Readiness with Defect Tracking
 			& Defect Density & Software Defects\\
 			\hline
@@ -411,7 +423,7 @@
 	\item Can be  used to test counter measure mechanisms\\
 	Like IDS, Firewalls etc.
 	\newline
-	\item Vulnerability Attack Injection tool (VAIT) is created.
+	\item Vulnerability Attack Injection tool (VAIT).
 	\newline
 	\item Inspects application for input validation vulnerabilities.\\
 	Like SQLi,XSS etc.
@@ -438,7 +450,7 @@
 	\begin{itemize}
 		\item Crawls Web Application.
 		\item Analyze HTTP \& SQL communications.
-		\item Generate correlation between http input and SQL queries
+		\item Generate correlation between HTTP input and SQL queries
 	\end{itemize}
 	\item  Vulnerability injection stage
 	\begin{itemize}
@@ -448,7 +460,7 @@
 			\item Done by removing
 			the protection of the target variables \\say call to a sanitizing function
 		\end{itemize}
-		\item perform specific code mutation in order to inject one vulnerability in that particular location.
+		\item Perform specific code mutation in order to inject one vulnerability in that particular location.
 	\end{itemize}
 	
 \end{enumerate}

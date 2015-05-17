@@ -45,13 +45,13 @@
 \headcommand {\beamer@framepages {19}{19}}
 \headcommand {\slideentry {2}{0}{20}{20/20}{}{0}}
 \headcommand {\beamer@framepages {20}{20}}
-\headcommand {\sectionentry {3}{\scshape METHODOLOGY}{21}{\scshape METHODOLOGY}{0}}
-\headcommand {\beamer@sectionpages {6}{20}}
-\headcommand {\beamer@subsectionpages {6}{20}}
-\headcommand {\slideentry {3}{0}{21}{21/21}{}{0}}
+\headcommand {\slideentry {2}{0}{21}{21/21}{}{0}}
 \headcommand {\beamer@framepages {21}{21}}
-\headcommand {\slideentry {3}{0}{22}{23/23}{}{0}}
-\headcommand {\beamer@framepages {23}{23}}
+\headcommand {\sectionentry {3}{\scshape METHODOLOGY}{22}{\scshape METHODOLOGY}{0}}
+\headcommand {\beamer@sectionpages {6}{21}}
+\headcommand {\beamer@subsectionpages {6}{21}}
+\headcommand {\slideentry {3}{0}{22}{22/22}{}{0}}
+\headcommand {\beamer@framepages {22}{22}}
 \headcommand {\slideentry {3}{0}{23}{24/24}{}{0}}
 \headcommand {\beamer@framepages {24}{24}}
 \headcommand {\slideentry {3}{0}{24}{25/25}{}{0}}
@@ -64,26 +64,28 @@
 \headcommand {\beamer@framepages {28}{28}}
 \headcommand {\slideentry {3}{0}{28}{29/29}{}{0}}
 \headcommand {\beamer@framepages {29}{29}}
-\headcommand {\sectionentry {4}{CONCLUSION}{30}{CONCLUSION}{0}}
-\headcommand {\beamer@sectionpages {21}{29}}
-\headcommand {\beamer@subsectionpages {21}{29}}
-\headcommand {\slideentry {4}{0}{29}{30/30}{}{0}}
+\headcommand {\slideentry {3}{0}{29}{30/30}{}{0}}
 \headcommand {\beamer@framepages {30}{30}}
+\headcommand {\sectionentry {4}{CONCLUSION}{31}{CONCLUSION}{0}}
+\headcommand {\beamer@sectionpages {22}{30}}
+\headcommand {\beamer@subsectionpages {22}{30}}
 \headcommand {\slideentry {4}{0}{30}{31/31}{}{0}}
 \headcommand {\beamer@framepages {31}{31}}
-\headcommand {\sectionentry {5}{REFERRENCES}{32}{REFERRENCES}{0}}
-\headcommand {\beamer@sectionpages {30}{31}}
-\headcommand {\beamer@subsectionpages {30}{31}}
-\headcommand {\slideentry {5}{0}{31}{32/32}{}{0}}
+\headcommand {\slideentry {4}{0}{31}{32/32}{}{0}}
 \headcommand {\beamer@framepages {32}{32}}
+\headcommand {\sectionentry {5}{REFERRENCES}{33}{REFERRENCES}{0}}
+\headcommand {\beamer@sectionpages {31}{32}}
+\headcommand {\beamer@subsectionpages {31}{32}}
 \headcommand {\slideentry {5}{0}{32}{33/33}{}{0}}
 \headcommand {\beamer@framepages {33}{33}}
-\headcommand {\slideentry {5}{0}{32}{33/34}{}{0}}
-\headcommand {\beamer@framepages {33}{34}}
-\headcommand {\slideentry {5}{0}{33}{35/35}{}{0}}
-\headcommand {\beamer@framepages {35}{35}}
-\headcommand {\beamer@partpages {1}{35}}
-\headcommand {\beamer@subsectionpages {32}{35}}
-\headcommand {\beamer@sectionpages {32}{35}}
-\headcommand {\beamer@documentpages {35}}
-\headcommand {\def \inserttotalframenumber {34}}
+\headcommand {\slideentry {5}{0}{33}{34/34}{}{0}}
+\headcommand {\beamer@framepages {34}{34}}
+\headcommand {\slideentry {5}{0}{33}{34/35}{}{0}}
+\headcommand {\beamer@framepages {34}{35}}
+\headcommand {\slideentry {5}{0}{34}{36/36}{}{0}}
+\headcommand {\beamer@framepages {36}{36}}
+\headcommand {\beamer@partpages {1}{36}}
+\headcommand {\beamer@subsectionpages {33}{36}}
+\headcommand {\beamer@sectionpages {33}{36}}
+\headcommand {\beamer@documentpages {36}}
+\headcommand {\def \inserttotalframenumber {35}}
