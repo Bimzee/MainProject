@@ -415,6 +415,26 @@
 \begin{frame}
 	\centering{\large{ \textbf{METHODOLOGY}}}
 \end{frame}
+\begin{frame}{PROBLEM DEFINITION}
+	\begin{itemize}
+		
+		\item SQLi \& XSS most common attacks in web Application.\newline
+		\item Vulnerabilities caused by input validation.\newline
+		\item Attacks application and application data.\newline
+		\item Remote Code Execution (RCE) \& File Inclusion (FI) attacks the system on which the application runs.\newline
+		
+		
+	\end{itemize}
+\end{frame}
+\begin{frame}{OBJECTIVE}
+	\begin{itemize}
+		\item RCE \& FI do not communicate with SQL system.\newline
+%		\item Monitoring communication correlation between HTTP and SQL will not detect these issues.\newline
+		
+		\item By utilizing Pattern mining methods, Application testing tools can identify these vulnerabilities in web applications .
+	\end{itemize}
+\end{frame}
+
 \begin{frame}{METHODOLOGY}
 \begin{itemize}
 	\item Based on injection of realistic vulnerabilities and the
@@ -501,24 +521,33 @@
 		\item Monitoring done using built in proxies. 
 	\end{itemize}
 \end{frame}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\subsection{VAIT architecture}
-\begin{frame}{VAIT architecture.}
-\begin{figure}
-\centering
-\includegraphics[width=0.7\linewidth]{Main/fig7}
-\caption{VAIT architecture.}
-\label{fig:fig7}
-\end{figure}
+%\begin{frame}{VAIT architecture.}
+%\begin{figure}
+%\centering
+%\includegraphics[width=0.7\linewidth]{Main/fig7}
+%\caption{VAIT architecture.}
+%\label{fig:fig7}
+%\end{figure}
 
-\end{frame}
-\begin{frame}
+%\end{frame}
+
+\begin{frame}{RESULT ANALYSIS CRITERIA}
 	\begin{itemize}
-		\item SQLi \& XSS attacks web Application.\newline
-		\item Remote Code Execution (RCE) \& File Inclusion (FI) attacks the system on which the application runs.\newline
-		\item VAIT tool will be modified so as to identify other validation errors like RCE \& FI.\newline
-		\item By utilizing Pattern mining methods, VAIT tool can identify similar vulnerability of web applications .
+		\item Output will be analyzed by comparing with existing counter measures.\newline
+		\begin{itemize}
+			\item Application Vulnerability Scanners evaluation.
+			\newline
+			\item  IDS evaluation \newline
+			
+		\end{itemize}
+		\item Standard open source php applications will be used.\newline
+		\begin{itemize}
+			\item phpBB, TikiWiki, DVWA etc
+		\end{itemize} 
 	\end{itemize}
 \end{frame}
 
